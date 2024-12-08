@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [pluginReact()],
   output: {
     sourceMap: {
-      js: 'cheap-module-source-map',
+      js: 'source-map',
     },
   },
   performance: {
